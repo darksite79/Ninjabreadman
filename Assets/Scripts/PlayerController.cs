@@ -5,7 +5,6 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 3f; // Velocidad de movimiento del personaje
-    //public float jumpForce = 10f; // Fuerza de salto
     public LayerMask groundLayer; // Capa de las plataformas
     private Animator anim;
     private Rigidbody2D rb;
@@ -20,6 +19,7 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         plataforma = 1; //Inicia en la plataforma 1
         direction = 1; // Inicialmente, el personaje se mueve hacia la derecha
+        //Borrar
     }
 
     void Update()
