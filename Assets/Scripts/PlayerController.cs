@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         plataforma = 1; //Inicia en la plataforma 1
         direction = 1; // Inicialmente, el personaje se mueve hacia la derecha
-        //Borrar
+        
     }
 
     void Update()
